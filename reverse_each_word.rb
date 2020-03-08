@@ -13,14 +13,14 @@
 # end
 
 
-# def reverse_each_word(sentence)
-#   array = sentence.split(" ")
-#   array_new = []
-#   array_new = array.collect do |element| 
-#     element.reverse 
-#   end
-#   array_new.join(" ")
-# end
+def reverse_each_word(sentence)
+  array = sentence.split(" ")
+  array_new = []
+  array_new = array.collect do |element| 
+    element.reverse 
+  end
+  array_new.join(" ")
+end
 
 # def reverse_each_word(sentence)
 #   sentence.split.collect {|word| word.reverse}.join(" ")
@@ -28,6 +28,6 @@
 
 # Without iterating:
 
-def reverse_each_word(sentence)
-  sentence.reverse.split.reverse.join(" ")
-end
+# def reverse_each_word(sentence)
+#   sentence.reverse.split.reverse.join(" ")
+# end
